@@ -9,7 +9,7 @@
       }]
     ],
     "include_dirs" : [
-      "<!(node -e \"require('nan')\")"
+      "<!(nodejs -e \"require('nan')\")"
     ],
     "conditions": [
       ["OS == \"linux\"", {
